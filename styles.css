@@ -10,7 +10,7 @@
   width: 380px;
   height: 770px;
   right: 928px;
-  top: 75px;
+  top: 115px;
   bottom: 115px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -35,6 +35,8 @@
 .price-card__title__item_text {
   left: 36.84%;
   right: 36.84%;
+  font-size: 20px;
+  line-height: 24px;
   top: calc(50% - 64px/2 - 320px);
   color: #FFFFFF;
 }
@@ -104,7 +106,6 @@
 .price-card__option-list-items:nth-of-type(odd) {
   background: #2A3438;
   mix-blend-mode: normal;
-  opacity: 0.5;
 }
 
 img {
