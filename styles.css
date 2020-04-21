@@ -1,4 +1,4 @@
-.price-tables {
+.price-page {
   position: relative;
   width: 1440px;
   height: 1000px;
@@ -111,6 +111,11 @@ img {
   line-height: 18px;
   color: #FFFFFF;
   margin: 16px 21px 16px 22px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: monospace;
 }
 
 /*# sourceMappingURL=styles.css.map */
