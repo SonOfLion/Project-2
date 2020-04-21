@@ -35,6 +35,24 @@
   color: #fff;
 }
 
+.price-card__price {
+  position: absolute;
+  display: flex;
+  left: 0%;
+  right: 0%;
+  top: 16.88%;
+  bottom: 69.48%;
+  background-color: #5BB189;
+}
+
+.price-card__price-coast {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  color: #FFFFFF;
+  margin: auto;
+}
+
 * {
   box-sizing: border-box;
   font-style: normal;
