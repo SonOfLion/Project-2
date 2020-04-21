@@ -24,7 +24,7 @@
 
 .price-card__title__item {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 35px;
     line-height: 43px;
     text-align: center;
@@ -52,11 +52,12 @@
 
 .price-card__price-text {
     position: absolute;
+    font-style: normal;
+    font-weight: 700;
     height: 67px;
     left: 28.95%;
     right: 28.95%;
     top: calc(50% - 67px/2);
-    font-weight: bold;
     font-size: 55px;
     line-height: 67px;
     text-align: center;
@@ -75,6 +76,7 @@
 }
 
 .price-card__description__text {
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
@@ -99,6 +101,12 @@
     width: 100%;
 }
 
+.price-card__option-list-items:nth-of-type(odd) {
+    background: #2A3438;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
 img {
     margin-left: 22px;
     margin-top: 18px;
@@ -111,4 +119,27 @@ img {
     line-height: 18px;
     color: #FFFFFF;
     margin: 16px 21px 16px 22px;
+}
+
+.price-card__order-btn {
+    position: absolute;
+    left: 29.47%;
+    right: 29.74%;
+    top: 89.61%;
+    bottom: 5.19%;
+    background: #5BB189;
+    border-radius: 20px;
+    width: 154.63px;
+    height: 40px;
+    border: none;
+}
+
+.price-card__order-btn-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
