@@ -1,0 +1,12 @@
+.price-tables {
+  position: relative;
+  width: 1440px;
+  height: 1000px;
+  background: #141B1C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=index.css.map */
