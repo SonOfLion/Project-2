@@ -95,6 +95,15 @@ img {
   padding-top: 16px;
 }
 
+.rectangle {
+  left: 0%;
+  right: 0.24%;
+  top: 0%;
+  bottom: 0%;
+  background: #5BB189;
+  border-radius: 20px;
+}
+
 .price-card__order-btn {
   position: absolute;
   left: 29.47%;
