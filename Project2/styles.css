@@ -96,15 +96,6 @@ img {
   padding-top: 16px;
 }
 
-.rectangle {
-  left: 0%;
-  right: 0.24%;
-  top: 0%;
-  bottom: 0%;
-  background: #5BB189;
-  border-radius: 20px;
-}
-
 .price-card__order-btn {
   position: absolute;
   left: 29.47%;
@@ -126,15 +117,13 @@ img {
   top: calc(50% - 17px/2 - 0.5px);
   text-transform: uppercase;
   color: #fff;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  text-align: center;
 }
 
 * {
   box-sizing: border-box;
   font-style: normal;
+  font-weight: normal;
   font-family: "Montserrat", sans-serif;
 }
 
