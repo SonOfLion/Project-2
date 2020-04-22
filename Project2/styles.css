@@ -98,6 +98,7 @@ img {
 
 .price-card__order-btn {
   position: absolute;
+  display: flex;
   left: 29.47%;
   right: 29.74%;
   top: 89.61%;
@@ -113,6 +114,7 @@ img {
   height: 17px;
   left: 18.05%;
   right: 17.49%;
+  margin: auto;
   top: calc(50% - 17px/2 - 0.5px);
   text-transform: uppercase;
   color: #fff;
