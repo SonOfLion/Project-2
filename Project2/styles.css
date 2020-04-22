@@ -77,6 +77,34 @@
   margin: auto;
 }
 
+.price-card__options-list {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.price-card__options-list-items {
+  height: 50px;
+}
+
+.price-card__options-list-items:nth-of-type(odd) {
+  background-color: #2A3438;
+}
+
+.shade {
+  margin: 18px 0 0 22px;
+}
+
+.price-card__options-list-items-text {
+  margin-left: 22px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
 * {
   box-sizing: border-box;
   font-style: normal;
