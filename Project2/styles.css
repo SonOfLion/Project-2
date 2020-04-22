@@ -105,6 +105,38 @@
   line-height: 18px;
 }
 
+.rectangle {
+  display: flex;
+  margin-top: 39px;
+  width: 154.63px;
+  height: 40px;
+  margin: auto;
+}
+
+.price-card__order-btn {
+  background: #5BB189;
+  border-radius: 20px;
+  width: 154.63px;
+  height: 40px;
+  border: none;
+}
+
+.price-card__order-btn.business {
+  background-color: #3A6BA5;
+}
+
+.price-card__order-btn.webshop {
+  background-color: #EC632A;
+}
+
+.price-card__order-btn-text {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 * {
   box-sizing: border-box;
   font-style: normal;
