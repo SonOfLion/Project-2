@@ -109,6 +109,11 @@ img {
 }
 
 .price-card__order-btn-text {
+  position: absolute;
+  height: 17px;
+  left: 18.05%;
+  right: 17.49%;
+  top: calc(50% - 17px/2 - 0.5px);
   text-transform: uppercase;
   color: #fff;
   font-style: normal;
