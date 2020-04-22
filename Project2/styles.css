@@ -96,6 +96,10 @@ img {
   padding-top: 16px;
 }
 
+.rectangle {
+  display: flex;
+}
+
 .price-card__order-btn {
   position: absolute;
   display: flex;
