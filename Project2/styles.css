@@ -40,6 +40,41 @@
   margin: 0;
 }
 
+.price-card__price {
+  position: absolute;
+  display: flex;
+  min-width: 380px;
+  height: 105px;
+  margin-top: 130px;
+  background-color: #5BB189;
+}
+
+.price-card__price_business {
+  position: absolute;
+  display: flex;
+  min-width: 380px;
+  height: 105px;
+  margin-top: 130px;
+  background-color: #3A6BA5;
+}
+
+.price-card__price_webshop {
+  position: absolute;
+  display: flex;
+  min-width: 380px;
+  height: 105px;
+  margin-top: 130px;
+  background-color: #EC632A;
+}
+
+.price-card__price-euro {
+  font-size: 55px;
+  line-height: 67px;
+  font-weight: bold;
+  color: #fff;
+  margin: auto;
+}
+
 * {
   box-sizing: border-box;
   font-style: normal;
