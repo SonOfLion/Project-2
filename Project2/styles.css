@@ -119,7 +119,6 @@
   width: 155px;
   height: 40px;
   border: none;
-  line-height: 17px;
 }
 
 .price-card__order-btn.business {
@@ -134,9 +133,10 @@
   color: #fff;
   text-transform: uppercase;
   font-style: normal;
-  font-weight: 300;
+  font-weight: mormal;
   font-size: 14px;
-  margin: auto;
+  padding-left: 27.98px;
+  line-height: 17px;
 }
 
 .badge {
