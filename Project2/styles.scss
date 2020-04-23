@@ -1,11 +1,11 @@
 .price-tables {
     display: flex;
+    flex-direction: row;
     width: 1440px;
     height: 1000px;
     background-color: #141B1C;
-    padding: 15px;
+    margin-left: 132px;
     margin-top: 50px;
-    margin-left: 115px;
 }
 
 .price-card {
