@@ -62,6 +62,7 @@
 }
 
 .price-card__description {
+  margin-top: 40px;
   display: flex;
   margin-top: 40px;
   width: 327.49px;
