@@ -107,8 +107,7 @@
 
 .rectangle {
   display: flex;
-  margin-top: 39px;
-  width: 154.63px;
+  width: 155px;
   height: 40px;
   margin: auto;
 }
@@ -138,9 +137,6 @@
   font-size: 14px;
   line-height: 17px;
   margin: auto;
-  width: 100%;
-  width: 99.91px;
-  height: 17px;
 }
 
 .badge {
