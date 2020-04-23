@@ -138,3 +138,29 @@
     line-height: 17px;
     text-align: center;
 }
+
+.badge {
+    display: flex;
+    position: absolute;
+    transform: rotate(45deg);
+    height: 25.01px;
+    width: 147.08px;
+    left: 265px;
+    bottom: 715px;
+    background-color: #DC3F45;
+    background: linear-gradient(135deg, transparent 18px, #DC3F45 0)top left, linear-gradient(225deg, transparent 18px, #DC3F45 0)top right;
+    background-size: 53% 92%;
+    background-repeat: no-repeat;
+}
+
+.badge-text {
+    margin: auto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.price-card.business {
+    position: relative;
+}
