@@ -1,8 +1,6 @@
 .price-tables {
   display: flex;
   justify-content: center;
-  width: 1440px;
-  height: 1000px;
   background-color: #141B1C;
   margin-top: 55px;
 }
@@ -10,6 +8,7 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 380px;
   height: 770px;
   background: #334247;
